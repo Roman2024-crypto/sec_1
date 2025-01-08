@@ -39,3 +39,64 @@
 9. UnrealIRCd 3.2.8.1 — бэкдор-выполнение команд (Metasploit)
 10. UnrealIRCd 3.2.8.1 — Удаленный загрузчик/выполнение
 11. Apache Tomcat < 5.5.17 — Удаленный листинг каталогов
+
+### Задание 2
+
+Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
+
+Запишите сеансы сканирования в Wireshark.
+
+Ответьте на следующие вопросы:
+
+- Чем отличаются эти режимы сканирования с точки зрения сетевого трафика?
+- Как отвечает сервер?
+
+*Приведите ответ в свободной форме.*
+
+### Решение 2
+
+Режимы преобразования запросов, отправляемые сканером. Ниже приведены изображения результатов запросов и поведения их машин:
+
+SYN - проверка:
+
+Результат выполнения:
+
+![image](https://github.com/user-attachments/assets/b0b921b2-636a-470c-bda9-79141ed8bbf6)
+
+Как работает:
+
+![image](https://github.com/user-attachments/assets/0b4931fc-e7cc-4be2-85c8-11160ae4cbb7)
+
+FIN - сканирование (взято из перзентационных занятий):
+
+Результат выполнения:
+
+![image](https://github.com/user-attachments/assets/1a3c9d96-771b-4a07-855b-2ca377a3084b)
+
+Как работает:
+
+![image](https://github.com/user-attachments/assets/3bd45a46-290d-46ac-b879-d4e6c4ffad02)
+
+Рождество - сканирование (взято из перзентации занятий):
+
+Результат выполнения:
+
+![image](https://github.com/user-attachments/assets/1de2863b-b81c-4d3a-a5b8-63d4894bcef7)
+
+Как работает:
+
+![image](https://github.com/user-attachments/assets/ad684ae5-1d6f-4a53-a731-bedc7e5f7bc4)
+
+UDP - сканирование (долго!!):
+
+Результат выполнения:
+
+![image](https://github.com/user-attachments/assets/5920dd31-0a61-4f4c-8ae4-aff7bc37324b)
+
+Как работает:
+
+![image](https://github.com/user-attachments/assets/a467cd73-c4d5-4f51-b295-0f4a80a83d03)
+
+![image](https://github.com/user-attachments/assets/8954705b-40d2-45cc-af61-64bb8b30b0f5)
+
+![image](https://github.com/user-attachments/assets/74ff62df-7fab-478f-980b-50859274447b)
