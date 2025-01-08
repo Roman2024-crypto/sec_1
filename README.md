@@ -25,3 +25,17 @@
 ### Решение 1
 
 Вывод nmap со списком открытых портов и включенных сервисов https://github.com/Roman2024-crypto/sec_1/blob/main/nmap.txt
+
+Уязвимости по базе https://www.exploit-db.com/ :
+
+1. vsftpd 2.3.4 — выполнение бэкдор-команд
+2. vsftpd 2.3.4 - Выполнение команд через бэкдор (Metasploit)
+3. TelnetD encrypt_keyid — перезапись указателя функции
+4. BIND 9.4.1 < 9.4.2 - Удаленное отравление кэша DNS (Metasploit)
+5. RPCBind / libtirpc - Отказ в обслуживании
+6. Samba 3.5.0 — Удаленное выполнение кода
+7. ProFTPd IAC 1.3.x — Удаленное выполнение команд
+8. Xorg X11 Server — локальное повышение привилегий (Metasploit)
+9. UnrealIRCd 3.2.8.1 — бэкдор-выполнение команд (Metasploit)
+10. UnrealIRCd 3.2.8.1 — Удаленный загрузчик/выполнение
+11. Apache Tomcat < 5.5.17 — Удаленный листинг каталогов
